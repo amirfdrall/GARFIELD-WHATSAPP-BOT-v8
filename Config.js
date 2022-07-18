@@ -26,7 +26,7 @@ global.notice = ` *Hi 🥰 I m*
 global.owner =  ['+94711502119'] //👈  Enter Your number
 global.premium =  ['+94711502119'] //👈  Enter Your number
 global.ownernomer = '+94711502119' //👈  Enter Your number
-global.ownername = 'ZENOI' //👈 Enter Your name
+global.ownername = 'AMIRF' //👈 Enter Your name
 global.botname = 'ＧＡＲＦＩＥＬＤ ＢＯＴ' //👈 Enter Your Bot name
 global.footer = '© 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 𝖦𝖺𝗋𝖿𝗂𝖾𝗅𝖽 𝖡𝗈𝗍' //👈 Enter Your Name
 global.ig = 'https://github.com/Zenoixnoize/GARFIELD-WHATSAPP-BOT-v8' // 👈 You Can change this your choice
@@ -74,4 +74,4 @@ fs.watchFile(file, () => {
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
 	require(file)
-})
+}
